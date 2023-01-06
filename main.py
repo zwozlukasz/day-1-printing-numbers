@@ -28,3 +28,17 @@ print("Hello"+"Jenny")
 print("Hello" "Jenny" "Margaret")
 # but 
 print("Hello", "Jenny", "Margaret")
+print()
+
+# format stings
+# 1.
+value_1 = 'example 1'
+value_2 = 'example 2'
+value_3 = 'example 3'
+
+result = "Value 1 is: %s value 2 is %s value 3 is %s"%(value_1, value_2, value_3)
+
+print(result)
+#2
+result = "This is example no 1: {}, example no 2: {}, example no 3: {}".format(value_1, value_2, value_3)
+print(result)
